@@ -15,7 +15,7 @@
 
 ### Multiple Containers
 Created a docker-compose file and ran it successfully.
-It contains Backen and frontend docker files. Also both local DynamoDB and Postgres were created and ran successfully. 
+It contains Backend and frontend docker files. Also both local DynamoDB and Postgres were created and ran successfully. 
 ![Docker compose up](assets/docker_compose_up.jpg)
 
 
