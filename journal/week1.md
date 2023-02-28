@@ -2,15 +2,15 @@
 
 ## Required Homework
 ### Containerize Backend
-Add Dockerfile
-Build Container
-Run Container
+- Added Dockerfile for the Backend flask
+- Built Container
+- Ran Container
 
 
 ### Containerize Frontend
-- Create Docker File
-- Build Container
-- Run Container
+- Created Docker File the Frontend react
+- Built Container
+- Ran Container
 ![Notifications Page](assets/Notifications_page.jpg)
 
 ### Multiple Containers
