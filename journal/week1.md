@@ -1,6 +1,24 @@
 # Week 1 — App Containerization
 
 ## Required Homework
+### Containerize Backend
+Add Dockerfile
+Build Container
+Run Container
+
+
+### Containerize Frontend
+- Create Docker File
+- Build Container
+- Run Container
+![Notifications Page](assets/Notifications_page.jpg)
+
+### Multiple Containers
+Created a docker-compose file and ran it successfully.
+It contains Backen and frontend docker files. Also both local DynamoDB and Postgres were created and ran successfully. 
+![Docker compose up](assets/docker_compose_up.jpg)
+
+
 ### Push and tag an image to DockerHub
 - I have created a profile in Dockerhub
 - Signed in to my dockerhub profile using **docker login**
