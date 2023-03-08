@@ -5,6 +5,7 @@ tracer = trace.get_tracer("notifications.activities")
 
 class NotificationsActivities:
   def run():
+    segment = xray_recorder.begin_segment('notifications_activities')
     with tracer.start_as_current_span("notifications-activities-mock-data"):
       now = datetime.now(timezone.utc).astimezone()
       results = [{
@@ -28,4 +29,10 @@ class NotificationsActivities:
         }],
       }
       ]
+    # xray ----- 
+    dict = {
+      "now": now.isoformat(),
+      "results-size": len(model['data'])
+    }
+    subsegment.put_metadata('key', dict, 'namespace')
     return results
